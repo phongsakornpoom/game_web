@@ -1,0 +1,170 @@
+/* Commented out cause Javascript now handles this, but just in case the code is merely commented out
+body{
+	background-image: url(background_images/background_1.jpg);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*/
+
+.main_body {
+    width:900px;
+	max-width:900px;
+	min-width:900px;
+	height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+	background-color: white;
+}
+
+.news_section {
+	margin-left: 20px;
+	margin-right: 10px;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #F93AA6;
+}
+
+.news_section ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.news_section ul li{
+	border-bottom: 2px dotted #ccc;
+}
+.news_section a{
+	color: #F93AA6;
+}
+
+.content_section {
+	font-family: sans-serif;
+	color:grey;
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.content_section a{
+	color:grey;
+}
+.banner{
+	width: 630px;
+}
+
+.main_content{
+	background-image: url(web_background.png);
+	float: left;
+	width: 900px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.left_content{
+	width: 630px;
+	float: left;
+	margin-left: 10px;
+}
+
+.right_content{
+	width: 220px;
+    background: none;
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+.right_content li{
+	margin-bottom: 10px;
+}
+
+#right_bar{
+	list-style-type: none;
+	
+}
+
+#gc_restock{
+	width: 200px;
+	height: 96px;
+	margin-right: 40px;
+	background-image: url(sidebar_gc.png);
+}
+
+#gc_restock_button{
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+#banner_btn{
+	height: 35px;
+    margin-top: -36px;
+    margin-left: 560px;
+}
+
+#help_bg{
+	background-image: url(info_background.png);
+	width: 200px;
+	height: 96px;
+}
+
+#btn_faq{
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+	width: 60px;
+}
+
+#btn_contact{
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+	width: 80px;
+}
+
+
+
+.navbar {
+	position: fixed;
+	top: 0px; 
+	z-index:70;
+	background-color:white;}
+	
+.footer {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color:grey;
+    width: 900px;
+	border-left-width: 6px;
+	border-right-width: 6px;
+	border-style: solid;
+	border-left-color: #d4d4d4;
+	border-right-color: #d4d4d4;
+	border-bottom-width: 0px;
+    background-color: #ebebeb;
+    text-align: center;
+	font-size: 12px;
+}
+
+.footer_bar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: left;
+	background-color: #d4d4d4;
+}
+
+.footer_link{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+/* News section classes */
+#news_title{
+	border-bottom: 2px dotted #ccc;
+}
+
+.news_date{
+	float:right;
+}
